@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emir Can Bakal - Portfolio</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+    <meta property="og:title" content="Emir Can Bakal | MIS Student & Developer">
+    <meta property="og:description" content="Welcome to my personal portfolio. Discover my projects in Java, SQL, ERP systems, and mobile development.">
+    <meta property="og:image" content="https://bakal271.github.io/portfolio/profile.jpg">
+    <meta property="og:url" content="https://bakal271.github.io/portfolio">
+    <meta name="author" content="Emir Can Bakal">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <header>
+        <nav>
+            <div class="logo">Emir Can Bakal</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#timeline">My Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="theme-toggle"><i class="fas fa-moon"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section hidden">
+            <div class="container">
+                <img src="profile.jpg" alt="Emir Can Bakal Profile" class="profile-img">
+                
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    Available for Internships & Projects
+                </div>
+
+                <h1>Hello, I'm Emir Can.</h1>
+                <h2 class="typing-container">I am a <span class="typewriter-text"></span></h2>
+                
+                <p class="intro-text">
+                    I bridge the gap between technical solutions and business strategies. 
+                    As a senior <strong>Management Information Systems</strong> student at <strong>Izmir Bakircay University</strong>, I design systems that create real value.
+                </p>
+                <div class="about-details">
+                    <p><i class="fas fa-user-graduate"></i> Senior Student (4th Year)</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Izmir, Turkey</p>
+                    <p><i class="fas fa-globe"></i> 100% English Curriculum</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="timeline" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">My Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2023</div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-laptop-code"></i> The Foundation</h3>
+                            <p><strong>Programming & Algorithms</strong></p>
+                            <p style="font-size: 0.9rem; margin-top: 5px; color: var(--secondary-color);">
+                                Started building a strong logic with <em>Algorithms</em> courses. Mastered Java and OOP basics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-server"></i> Data & Management</h3>
+                            <p><strong>Database & ERP Systems</strong></p>
+                            <p style="font-size: 0.9rem; margin-top: 5px; color: var(--secondary-color);">
+                                Specialized in <em>SQL</em> and <em>Data Modeling</em>. Gained the <strong>IAS caniasERP</strong> certification.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-mobile-alt"></i> Advanced Development</h3>
+                            <p><strong>AI, Mobile & UI Design</strong></p>
+                            <p style="font-size: 0.9rem; margin-top: 5px; color: var(--secondary-color);">
+                                Working on <em>Mobile Programming</em> (Android), <em>UI Development</em>, and <em>Applied AI</em>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="tools" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">My Toolbox</h2>
+                <div class="tools-grid">
+                    <span class="tool-tag"><i class="fas fa-code"></i> VS Code</span>
+                    <span class="tool-tag"><i class="fab fa-android"></i> Android Studio</span>
+                    <span class="tool-tag"><i class="fab fa-java"></i> IntelliJ IDEA</span>
+                    <span class="tool-tag"><i class="fas fa-database"></i> SQL Server</span>
+                    <span class="tool-tag"><i class="fas fa-chart-pie"></i> Power BI</span>
+                    <span class="tool-tag"><i class="fas fa-file-excel"></i> MS Excel (Adv)</span>
+                    <span class="tool-tag"><i class="fab fa-figma"></i> Figma</span>
+                    <span class="tool-tag"><i class="fab fa-python"></i> Jupyter / Python</span>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="goals" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Career Objectives</h2>
+                <div class="card-container">
+                    <div class="card goal-card short-term">
+                        <h3><i class="fas fa-rocket"></i> Short Term</h3>
+                        <p>To join a dynamic team as a Junior Software Developer or Business Analyst, gaining hands-on experience in enterprise projects.</p>
+                    </div>
+                    <div class="card goal-card long-term">
+                        <h3><i class="fas fa-bullseye"></i> Long Term</h3>
+                        <p>To become a Solution Architect leading digital transformation projects and managing complex technical teams.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="skills" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-box"><i class="fab fa-java"></i> Java & OOP</div>
+                    <div class="skill-box"><i class="fas fa-database"></i> SQL & Database</div>
+                    <div class="skill-box"><i class="fas fa-mobile-alt"></i> Mobile Prog.</div>
+                    <div class="skill-box"><i class="fab fa-html5"></i> HTML & CSS</div>
+                    <div class="skill-box"><i class="fas fa-project-diagram"></i> System Analysis</div>
+                    <div class="skill-box"><i class="fas fa-chart-line"></i> Data Modeling</div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="certifications" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <ul class="cert-list">
+                    <li><i class="fas fa-certificate"></i> <strong>IAS Business Academy</strong> - caniasERP Professional Certificate</li>
+                    <li><i class="fas fa-certificate"></i> <strong>Google</strong> - Fundamentals of Digital Marketing</li>
+                    <li><i class="fas fa-certificate"></i> <strong>Udemy</strong> - The Complete Java Development Course</li>
+                    <li><i class="fas fa-certificate"></i> <strong>BTK Akademi</strong> - SQL Database Management</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projects" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-list">
+                    <div class="card">
+                        <h3><i class="fas fa-globe-europe"></i> Local Experience App</h3>
+                        <p>A web platform concept connecting tourists with local guides in Turkey. Aiming to provide authentic experiences similar to Tripster.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-graduation-cap"></i> Scholarship Finder</h3>
+                        <p>A project designed to help Turkish students find scholarships easily. Inspired by Scholly, focusing on accessibility.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-university"></i> University System</h3>
+                        <p>A backend database project developed using <strong>Java</strong> and <strong>SQL</strong>. Manages student registrations and grades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contact" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p>Have a question or want to work together?</p>
+                
+                <div class="contact-wrapper">
+                    <form class="contact-form" action="mailto:Emircanbakal7@hotmail.com" method="post" enctype="text/plain">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+
+                    <div class="contact-socials">
+                        <h3>Connect with me</h3>
+                        <div class="social-icons-vertical">
+                            <a href="mailto:Emircanbakal7@hotmail.com"><i class="fas fa-envelope"></i> Email</a>
+                            <a href="https://www.linkedin.com/in/emir-can-bakal-98bbb61b4" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/bakal271" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                        
+                        <div class="qr-section" style="margin-top: 30px; text-align: center; border-top: 1px solid var(--border-color); padding-top: 20px;">
+                            <p style="font-size: 0.85rem; color: var(--secondary-color); margin-bottom: 10px;">Scan to view on mobile:</p>
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://bakal271.github.io/portfolio" 
+                                 alt="Portfolio QR Code" 
+                                 style="border: 5px solid #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Emir Can Bakal. Built with <i class="fas fa-heart" style="color: red;"></i>.</p>
+    </footer>
+
+    <script>
+        // Scroll Animasyonu
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) entry.target.classList.add('show');
+            });
+        });
+        document.querySelectorAll('.hidden').forEach((el) => observer.observe(el));
+
+        // Yukarı Çık Butonu
+        let mybutton = document.getElementById("scrollTopBtn");
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Gece Modu
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+        });
+
+        // Daktilo Efekti
+        const textElement = document.querySelector(".typewriter-text");
+        const texts = ["MIS Student.", "Software Developer.", "ERP Specialist.", "Tech Enthusiast."];
+        let count = 0; let index = 0; let currentText = ""; let letter = "";
+        (function type() {
+            if (count === texts.length) count = 0;
+            currentText = texts[count];
+            letter = currentText.slice(0, ++index);
+            textElement.textContent = letter;
+            if (letter.length === currentText.length) {
+                count++; index = 0; setTimeout(type, 2000);
+            } else { setTimeout(type, 100); }
+        }());
+    </script>
+</body>
+</html>
